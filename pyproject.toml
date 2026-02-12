@@ -5,12 +5,15 @@ description = "Process PDF or Markdown documents and generate structure"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "fastapi>=0.115.0",
     "openai>=1.101.0",
     "pymupdf>=1.26.4",
     "PyPDF2>=3.0.1",
     "python-dotenv>=1.1.0",
     "tiktoken>=0.11.0",
     "pyyaml>=6.0.2",
+    "uvicorn[standard]>=0.32.0",
+    "python-multipart>=0.0.12",
 ]
 
 [build-system]
